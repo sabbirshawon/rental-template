@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>House Rental</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rental Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/prettySticky.css" type="text/css">
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--banner-->
+	<div  id="home" class="banner">
+		<div class="banner-info">
+			<!--navigation-->
+			<div class="top-nav">
+				<nav>
+					<div class="container">
+						<div class="navbar-header logo">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<h1><a href="index.html">House Rental</a></h1>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-right">
+								<li><a href="#home" class="link-kumya active scroll"><span data-letters="Home">Home</span></a></li>
+								<li><a href="" class="link-kumya"><span data-letters="About">Rent</span></a></li>	
+								<li><a href="" class="link-kumya"><span data-letters="Portfolio">Booking</span></a></li>
+								<li><a href="" class="link-kumya"><span data-letters="Short Codes">Login</span></a></li>
+								<li><a href="" class="link-kumya"><span data-letters="Blog">About Us</span></a></li>		
+								<li><a href="" class="link-kumya"><span data-letters="Contact">Contact</span></a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</nav>
+			</div>	
+			<!--//navigation-->
+			<div class="banner-text">
+				<!--banner Slider starts Here-->
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 3
+					  $("#slider3").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				</script>
+				<!--//End-slider-script-->
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-text-info">
+								<form action="" method="get">
+									<div class="col-md-3 col-xs-12">
+										<h4>Select Category</h4>
+										<select class="form-control">
+											<option value="">House</option>
+											<option value="">Flat</option>
+											<option value="">Apartment</option>
+										</select>
+									</div>
+									<div class="col-md-3 col-xs-12">
+										<h4>Select Place</h4>
+										<select class="form-control">
+											<option value="">Zindabazar</option>
+											<option value="">Sylhet</option>
+											<option value="">Mirabazar</option>
+											<option value="">Amborkhana</option>
+										</select>
+									</div>
+									<div class="col-md-3 col-xs-12">
+										<h4>Select Price</h4>
+										<select class="form-control">
+											<option value="">Below 10,000</option>
+											<option value="">10,000-20,000</option>
+										</select>
+									</div>
+									<div class="col-md-3 col-xs-12 place-grid"> 
+										<h4>Search Here</h4>
+										<input type="submit" class="form-control" value="Search"> 
+									</div>
+								</form>	
+							</div>	
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!--//banner-->
+	<!--welcome-->
+	<div class="welcome">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="row">
+							<div class="col-md-9">
+								<h3></h3>
+							</div>
+							<div class="col-md-3">
+								<!-- Controls -->
+								<div class="controls pull-right hidden-xs">
+									<a class="left fa fa-chevron-left btn btn-primary" href="#carousel-example-generic"
+										data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-primary" href="#carousel-example-generic"
+											data-slide="next"></a>
+								</div>
+							</div>
+						</div>
+						<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="col-item">
+												<div class="photo">
+													<img src="images/hotel_one.jpg" class="img-responsive" alt="a" />
+												</div>
+												<div class="info">
+													<div class="row">
+														<div class="price col-md-6">
+															<h5>Title</h5>
+															<h5 class="price-text-color">
+																Contact for price</h5>
+														</div>
+														<div class="rating hidden-sm col-md-6">
+															<i class="fa fa-bed"></i> <b>3</b>
+															<i class="fa fa-bath"></i> <b>3</b>
+														</div>
+													</div>
+													<div class="separator clear-left">
+														<p class="btn-details">
+															<i class="fa fa-list"></i><a href="" class="hidden-sm">More details</a></p>
+													</div>
+													<div class="clearfix">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="col-item">
+												<div class="photo">
+													<img src="images/hotel_two.jpg" class="img-responsive" alt="a" />
+												</div>
+												<div class="info">
+													<div class="row">
+														<div class="price col-md-6">
+															<h5>Title</h5>
+															<h5 class="price-text-color">
+																Contact for price</h5>
+														</div>
+														<div class="rating hidden-sm col-md-6">
+															<i class="fa fa-bed"></i> <b>3</b>
+															<i class="fa fa-bath"></i> <b>3</b>
+														</div>
+													</div>
+													<div class="separator clear-left">
+														<p class="btn-details">
+															<i class="fa fa-list"></i><a href="" class="hidden-sm">More details</a></p>
+													</div>
+													<div class="clearfix">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="col-item">
+												<div class="photo">
+													<img src="images/hotel_one.jpg" class="img-responsive" alt="a" />
+												</div>
+												<div class="info">
+													<div class="row">
+														<div class="price col-md-6">
+															<h5>Title</h5>
+															<h5 class="price-text-color">
+																Contact for price</h5>
+														</div>
+														<div class="rating hidden-sm col-md-6">
+															<i class="fa fa-bed"></i> <b>3</b>
+															<i class="fa fa-bath"></i> <b>3</b>
+														</div>
+													</div>
+													<div class="separator clear-left">
+														<p class="btn-details">
+															<i class="fa fa-list"></i><a href="" class="hidden-sm">More details</a></p>
+													</div>
+													<div class="clearfix">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="col-item">
+												<div class="photo">
+													<img src="images/hotel_two.jpg" class="img-responsive" alt="a" />
+												</div>
+												<div class="info">
+													<div class="row">
+														<div class="price col-md-6">
+															<h5>Title</h5>
+															<h5 class="price-text-color">
+																Contact for price</h5>
+														</div>
+														<div class="rating hidden-sm col-md-6">
+															<i class="fa fa-bed"></i> <b>3</b>
+															<i class="fa fa-bath"></i> <b>3</b>
+														</div>
+													</div>
+													<div class="separator clear-left">
+													
+														<p class="btn-details">
+															<i class="fa fa-list"></i><a href="" class="hidden-sm">More details</a></p>
+													</div>
+													<div class="clearfix">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ad">
+						<img src="images/ad.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//welcome-->
+	<!--tabs-->
+	<div class="tabs">
+		<div class="container">
+			<div class="col-md-6 tabs-left">
+				<div class="col-xs-2 tab-grid-left"> <!-- required for floating -->
+					<!-- Nav tabs -->
+					 <ul class="nav nav-tabs">
+						<li class="active"><a href="#Tab1" data-toggle="tab">Tab1</a></li>
+						<li><a href="#Tab2" data-toggle="tab">Tab2</a></li>
+						<li><a href="#Tab3" data-toggle="tab">Tab3</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-10 tab-grid-right">
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="Tab1">
+							<div class="text">
+								<h3 class="title">AboutUs</h3>
+								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. </p>
+								<div class="more more2">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab2">
+							<div class="text">
+								<h3 class="title">Offers</h3>
+								<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+								<div class="more more2">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>
+						</div>
+						<div class="tab-pane" id="Tab3">
+							<div class="text">
+								<h3 class="title">Advantages</h3>
+								<p>Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero eos et accusamus et iusto odio praesentium voluptatum </p>
+								<div class="more more2">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 tabs-right ">
+				<img src="images/img2.jpg" alt=""/>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//tabs-->
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<h3 class="title">Services</h3>
+			<div class="servc-grids">
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-th-large effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Cum soluta nobis est eligendi</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-tree-deciduous effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Soluta nobis est cum eligendi</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="servc-grids">
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-tasks effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Eligendi cum soluta nobis est</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-globe effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Nobis cum soluta est eligendi</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="servc-grids">
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-cog effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Cum soluta nobis est eligendi</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 servc-grid">
+					<div class="col-xs-3 servc-grid-left">
+						<span class="glyphicon glyphicon-link effect-1" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-9 servc-grid-right">
+						<h4>Soluta nobis cum est eligendi</h4>
+						<p>Itaque earum rerum hic tenetur a sapiente delectus 
+						reiciendis maiores alias consequatur aut</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 footer-grids">
+				<h3>Review</h3>
+				<p>Sed ut turpis elit ullamcorper in auctor non, accumsan vel lacus nulla auctor cursus nunc. Maecenas ultricies dolor in urna tempus, id egestas erat finibus  interdum lectus eget scelerisque.</p>
+			</div>
+			<div class="col-md-3 footer-grids">
+				<h3>Contact Me</h3>
+				<p>123 NewYork City USA.<br>
+					<span>Office: 908-0000</span>
+				</p>
+				<div class="footer-bottom">
+					<a href="#"><span>Facebook</span></a>
+					<a href="#"><span>Pinterest</span></a>
+					<a href="#"><span>LinkedIn </span></a>
+					<a href="#"><span>Behance</span></a>
+				</div>
+			</div>
+			<div class="col-md-5 footer-grids">
+				<h3>Flickr</h3>
+				<a  class="footer-img" href="single.html"> <img src="images/f1.jpg" alt=""/></a>
+				<a class="footer-img" href="single.html"> <img src="images/f2.jpg" alt=""/></a>
+				<a class="footer-img" href="single.html"> <img src="images/f3.jpg" alt=""/></a>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="footer-copy">
+				<p>© 2018 House Rental. All rights reserved | Design by <a href="http://sabbirshawon.github.io/">Sabbir</a></p>
+			</div>
+		</div>
+	</div>
+	<script src="js/prettySticky.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
